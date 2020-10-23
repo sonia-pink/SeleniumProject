@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--<listeners >
+    <listener
+    class-name="extentReport.ExtentReportClass" />
+</listeners> -->
+
+    <test verbose="2" preserve-order="true"
+          name="/Users/ev/Desktop/sonia-workspaces/MyWork/SeleniumFrameworkFinal/src/test">
+        <parameter name="Username"  value="sample@gmail.com"></parameter>
+        <parameter name="Password"  value="asd!@#"></parameter>
+
+        <classes>
+             <class name="com.amazon.HomePageTest"> </class> 
+            <class name="com.amazon.CommonFeatureTest">
+            </class>
+        </classes>
+    </test>
+</suite>

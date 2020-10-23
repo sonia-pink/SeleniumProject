@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/ev/Desktop/sonia-workspaces/MyWork/SeleniumFrameworkFinal/src/test(failed)">
+    <parameter name="Username" value="sample@gmail.com"/>
+    <parameter name="Password" value="asd!@#"/>
+    <classes>
+      <class name="com.amazon.CommonFeatureTest">
+        <methods>
+          <include name="search" invocation-numbers="2"/>
+          <include name="footerLinksCountTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amazon.CommonFeatureTest -->
+      <class name="com.amazon.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="heroImagesCountTest"/>
+        </methods>
+      </class> <!-- com.amazon.HomePageTest -->
+    </classes>
+  </test> <!-- /Users/ev/Desktop/sonia-workspaces/MyWork/SeleniumFrameworkFinal/src/test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
