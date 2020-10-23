@@ -26,7 +26,7 @@ public class HomePageTest extends Base {
     public void heroImagesCountTest() {
         int count = hp.heroImages();
         System.out.println("TOTAL IMAGES " + count);
-        Assert.assertEquals(count, 9);
+        Assert.assertEquals(count, 8);
     }
 
 
