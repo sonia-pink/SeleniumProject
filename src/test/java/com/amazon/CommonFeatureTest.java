@@ -80,7 +80,7 @@ public class CommonFeatureTest extends Base
     public void footerLinksCountTest()
     {
         int count = cf.footerLinksCount();
-        Assert.assertEquals(count,42);
+        Assert.assertEquals(count,41);
         System.out.println("link count match");
     }
 
